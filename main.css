@@ -1,0 +1,91 @@
+@keyframes blink {
+  50% {
+    background-color: rgb(240, 240, 240);
+  }
+}
+
+@keyframes blink-red {
+  50% {
+    color: red;
+  }
+}
+
+h1 {
+  margin-left: 5%;
+}
+
+h1 img {
+  width: 50px;
+}
+
+h3 {
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+.google-login {
+  text-align: right;
+  padding-right: 5%;
+  padding-bottom: 20px;
+  cursor: pointer;
+  color: rgb(0, 0, 114);
+}
+
+.google-login img {
+  width: 20px;
+}
+
+.drop-area {
+  width: 90%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: grey;
+  background-color: #fff;
+  border: 1px solid grey;
+  overflow-y: scroll;
+}
+
+.drop-area img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.highlight {
+  animation: blink .6s step-end infinite alternate;
+}
+
+#but {
+  margin-top: 15px;
+  margin-left: 5%; 
+}
+
+#result {
+  color: red;
+}
+
+.uploaded-files {
+  margin-left: 5%;
+}
+
+#progress {
+  font-size: .8em;
+}
+
+.uploaded-files img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.footer {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.75);
+  bottom: 0;
+  border-top: solid gray 1px;
+  width: 90%;
+  margin: 20px 5% 0 5%;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  text-align: right;
+}

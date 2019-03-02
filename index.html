@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8"></meta>
+  <title>Drag and Drop File Uploader</title>
+  <link type='image/x-icon' rel='shortcut icon' href='images/drag-drop.png'>
+  <link type='text/css' rel='stylesheet' href='main.css'>
+  
+  <script defer type='text/javascript' src='main.js'></script>
+  <script defer src="https://apis.google.com/js/api.js"
+  onload="this.onload=function(){};handleClientLoad()" 
+        onreadystatechange="if (this.readyState === 'complete') this.onload()">
+</script>
+</head>
+<body>
+  <h1><img src='images/drag-drop.png'> Drag and Drop Web File Uploader</h1>    
+  <div class='google-login' id='google-login'>
+  </div>
+    <div id='drop-area' class='drop-area'>
+      <h3>Drag and drop file(s) here:</h3>
+      <span id='drop-extensions'>
+        * only ".jpg", ".jpeg", ".png", "gif" or ".pdf".
+      </span>
+      <div id='preview'></div>
+    </div>
+    <input type='button' id='but' value='Upload'>
+    <span id='result'></span>
+  <div class='uploaded-files' id='uploaded'>
+    <p>
+      Uploaded files:
+      <span id='progress'></span>
+    </p>
+  </div>
+  <div class='footer'>
+    Created by&nbsp; <b><i>romanhavr</i></b>
+  </div>
+</body>
